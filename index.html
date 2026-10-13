@@ -5,9 +5,9 @@
 <meta property="og:title" content="Geofizika filiali ochilishi — Niyat somsa">
 <meta property="og:description" content="Sizni tantanali ochilish marosimiga taklif etamiz. 14 oktabr, 17:00">
 <meta property="og:url" content="https://niyatsomsa.github.io/geofizika/">
-<meta property="og:image" content="https://niyatsomsa.github.io/geofizika/og.png?v=2">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image" content="https://niyatsomsa.github.io/geofizika/og3.jpg">
+<meta property="og:image:width" content="1565">
+<meta property="og:image:height" content="784">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0C0B09"><title>Geofizika filiali ochilishi</title>
 <meta name="description" content="Niyat somsa Geofizika filiali tantanali ochilish marosimiga taklifnoma — 14 oktabr, 17:00">
@@ -46,11 +46,11 @@ canvas#dust{position:absolute;inset:0;width:100%;height:100%;pointer-events:none
 .brand{display:flex;justify-content:center;color:var(--cream)}
 .logo{display:block;fill:currentColor}
 .logo *{fill:currentColor}
-.logo-wide{height:27px;width:auto;opacity:.9}
-.logo-small{width:96px;height:auto;color:var(--cream)}
+.logo-wide{height:58px;width:auto;opacity:.9}
+.logo-small{width:210px;height:auto;color:var(--cream)}
 
 /* slides */
-.slide{position:absolute;inset:0;padding:calc(env(safe-area-inset-top,0px) + 76px) 28px calc(env(safe-area-inset-bottom,0px) + 40px);
+.slide{position:absolute;inset:0;padding:calc(env(safe-area-inset-top,0px) + 104px) 28px calc(env(safe-area-inset-bottom,0px) + 40px);
   display:flex;flex-direction:column;justify-content:center;opacity:0;visibility:hidden;transition:opacity .7s ease,visibility .7s}
 .slide.on{opacity:1;visibility:visible}
 .rv{opacity:0}
@@ -184,10 +184,15 @@ h2 em{font-style:italic;color:var(--gold)}
 .paused .pause-ind{opacity:1}
 
 @media (max-height:640px){
-  .slide{padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+  .slide{padding-top:calc(env(safe-area-inset-top,0px) + 96px)}
   .stack{gap:16px}
   .tl li{padding:9px 0}
   .day{font-size:88px}
+}
+@media (max-height:720px){
+  .slide{padding-top:calc(env(safe-area-inset-top,0px) + 96px)}
+  .stack{gap:16px}
+  .logo-small{width:140px}
 }
 @media (prefers-reduced-motion:reduce){
   .slide *, .slide{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}
